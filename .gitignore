@@ -1,0 +1,23 @@
+# .gitignore para el Proyecto Tetris Medieval
+
+# Compilaciones y Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Entornos Virtuales
+venv/
+ENV/
+env/
+.env
+.venv
+
+# Archivos de Guardado y Pruebas Locales (Persistencia temporal)
+test_progreso.json
+.idea/
+.vscode/
+
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
